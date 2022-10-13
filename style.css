@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: grid;
+    max-width: 400px;
+    max-height: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: repeat(3, 1fr);
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1 fr;
+}
+
+.space{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

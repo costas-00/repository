@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+  <div>Today is:</div>
+  <div id="dayOfWeek"></div>
+  <div>Current time is:</div>
+  <div id="currentTime"></div>
+  <div>
+    <button id="print" onclick="printPage()">Print</button>
+  </div>
+  </div>
+
+  <hr class="space"/>
+  <div class="container1">
+  <div id="format1"></div>
+  <div id="format2"></div>
+  <div id="format3"></div>
+  <div id="format4"></div>
+  </div>
+  <hr class="space"/>
+
+  <form>
+    The first side of the triangle: 
+    <input type="number" id="side1"/> <br />
+    The second side of the triangle: 
+    <input type="number" id="side2"/><br />
+    The third side of the triangle: 
+    <input type="number" id="side3"/><br />
+  </form>
+  <button onclick="calculateArea()">Calculate area</button>
+  <div id="result"></div>
+
+  <hr class="space"/>
+  <p>Insert the string to be reversed:</p>
+  <input type="text" id="string" />
+  <button onclick="reverseString()">Reverse</button>
+  <div id="reversedString"></div>
+  <hr class="space"/>
+
+  <p>Insert the aleator number between 1 and 10:</p>
+  <input type="number" id="aleator" />
+  <button onclick="controlChance()">Try</button>
+  <div id="resultChance"></div>
+  <hr class="space"/>
+
+  <button onclick="adressURL()">Adresa paginii curente</button>
+  <hr class="space"/>
+
+  <p>Atribuirea unui nume variabilei citit de la utilizator</p>
+  <label>Introduce name of the variable</label>
+  <input type="text" id="variabila"> 
+  <button onclick="nameOfVariable()">Create</button>
+  <hr class="space"/>
+
+  <p>Controlam daca sitrul incepe cu Py daca nu adaugam si afisam</p>
+  <label>Introduce the string</label>
+  <input type="text" id="control"> 
+  <button onclick="startWithPy()">Control</button>
+  <hr class="space"/>
+
+  <button onclick="resultCompare()">Compararea cheilor si elementelor a doua obiecte identice</button>
+  <hr class="space"/>
+
+  <button onclick="resultCopy()">Copy to clipboard</button>
+  <hr class="space"/>
+  
+  <img controls id="myVideo"></img>
+
+
+  <script src="codejs.js"></script>
+</body>
+</html>
